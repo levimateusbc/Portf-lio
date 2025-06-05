@@ -1,3 +1,10 @@
+/* MAIN COLOR TEXT: #444 */
+/* SECONDARY COLOR TEXT DARKER #333 */
+/* rgb(117, 117, 117) */
+/* COLORFULL COLORS #00bfff,#00ced1*/
+
+
+
 *{
   margin: 0;
   padding: 0;
@@ -56,7 +63,7 @@ body {
 .nav__link{
    text-decoration: none;
    color: #444;
-   font-size: 2rem;
+   font-size: 2.7rem;
 }
 .nav__link:hover{
   color: #5ec576;
@@ -72,10 +79,10 @@ body {
 }
 .header_description{
   color: #00bfff  ;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 .header_description-2{
-  font-size: 4.5rem;
+  font-size: 6rem;
   color: #00bfff;
 }
 .highlight{
@@ -83,7 +90,7 @@ body {
 }
 .header_description-3{
   width: 45rem;
-  font-size: 1.5rem;
+  font-size: 2.2rem;
   color: #444;
 }
 .header__title a{
@@ -108,14 +115,85 @@ body {
   height: 4rem;
   margin-bottom: 4rem;
 }
+/* ####################################### Section about me ########################################## */
+
+
+.title_about{
+  font-size: 4.5rem;
+  color: #333;
+
+}
+.border{
+    border-bottom: 0.35rem solid #00bfff;
+
+}
+.about-me{
+  /* display: flex;
+  justify-content: center; */
+  padding-top: 13.5rem;
+  padding-bottom: 13.5rem;
+}
+.about-me2{
+
+}
+.p-about{
+  font-size: 2.7rem;
+  padding-top: 2rem;
+  color: rgb(117, 117, 117);
+}
+.p-about-s{
+  color: #00ced1;
+  font-weight: bold;
+}
+
+/* ################################ Tech stack ############################### */
+.tech_info{
+  font-size: 3.2rem;
+}
+
+.tech_01{
+  padding-top: 3rem;
+}
+.tech{
+   display: flex;
+   justify-content: space-between;
+}
 
 
 
-/* Reusable codes */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ################################# Reusable codes ######################################### */
 .btn{
   border-bottom: solid 1px #5ec576;
   width: fit-content;
   text-decoration: none;
   color: #00ced1;
-  font-size: 2rem; 
+  font-size: 2.7rem; 
 } 
+
+.container{
+  width: 130rem;
+}
+.gray-background {
+  background-color: #f0f0f0; 
+}
+.blue-background{
+  background-color: #f9fdff;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
